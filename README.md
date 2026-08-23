@@ -13,7 +13,7 @@ which was made for fun and I did some minor performance related changes
 
 ## Here's what changed.
 
-- Uses `binary tree` this one uses `hashtables` for routing (stolen).
+- Uses `hashtables` instead of `binary tree`(stolen).
 
 - Uses chunk-by-chunk streaming instead of loading whole files at once (which older version did.)
 
