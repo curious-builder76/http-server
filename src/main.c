@@ -84,7 +84,7 @@ int main(int argc, char *argv[]) {
 
 		char template[100] = "";
 		int status_code=200;
-		if (memcmp("/static/",urlRoute,strlen("/static/")==0)){
+		if (memcmp("/static/",urlRoute,strlen("/static/"))==0){
 			(!strcmp("/static/",urlRoute)) ? strcat(template,"index.css") : strcat(template,urlRoute);
 			printf("yup!\n");
 			fflush(stdout);
